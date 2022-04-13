@@ -666,6 +666,8 @@ class crack:
 					uid, name = me.split('<=>')
 					sempak = name.split(' ')
 					nun = sempak[0]
+					pwx = ['qwerty123','qwerty','iloveyou','sayang','sayangku','sayang123','bismillah','anjing','katasandi','sandi123']
+			if len(nun)<6:
 					if len(nun)>=6:
 						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=2:
