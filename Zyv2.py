@@ -233,7 +233,7 @@ class menu:
 				try:
 					print(' %s║'%(N))
 					idt = input(' %s╠═[%s•%s] Masukan id yang ke %s : '%(N,O,N,ikeh))
-					r = requests.get(f'https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token={token}')
+					r = requests.get(f'https://graph.facebook.com/{idt}?fields=name,friends.fields(id,name)&access_token={token}')
 					z = json.loads(r.text)
 					id = []
 					for a in z['friends']['data']:
