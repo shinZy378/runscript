@@ -690,6 +690,7 @@ class crack:
 					uid, name = nama.split('<=>')
 					gas = name.split(' ')
 					nun = gas[0]
+					pwx = ['qwerty123','qwerty','iloveyou','sayang','sayangku','sayang123','bismillah','anjing','katasandi','sandi123']v
 					if len(nun)>=6:
 						pwx = [nun, nun+'123', nun+'1234', nun+'12345', name]
 					elif len(nun)<=2:
