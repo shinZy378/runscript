@@ -166,7 +166,7 @@ class menu:
 		print(' %s╠═[%s•%s] Kamu masuk pada         : %s'%(N,O,N,waktu))
 		print(' %s║'%(N))
 		print(' %s╠═[%s0%s] crack dari daftar teman'%(N,O,N))
-		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N))
+		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N,O))
 		print(' %s╠═[%s2%s] crack dari akun massal'%(N,O,N))
 		print(' %s╠═[%s3%s] crack dari postingan'%(N,O,N))
 		print(' %s╠═[%s4%s] crack dari likes post'%(N,O,N))
