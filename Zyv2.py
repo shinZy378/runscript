@@ -167,7 +167,7 @@ class menu:
 		print(' %s║'%(N))
 		print(' %s╠═[%s0%s] crack dari daftar teman'%(N,O,N))
 		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N,))
-		print(' %s╠═[%s2%s] crack dari akun massal'%(N,O,N))
+		print(' %s╠═[%s2%s] crack dari akun massal(OFF/EROR)'%(N,O,N))
 		print(' %s╠═[%s3%s] crack dari postingan'%(N,O,N))
 		print(' %s╠═[%s4%s] crack dari likes post'%(N,O,N))
 		print(' %s╠═[%s5%s] crack dari follower'%(N,O,N))
@@ -609,15 +609,15 @@ class crack:
 							exit()
 					print(' %s║'%(N))
 					print(' %s╠═[%s1%s] Metode Free'%(N,O,N))
-					print(' %s╠═[%s2%s] Metode Mbasic'%(N,O,N))
-					print(' %s╠═[%s3%s] Metode Mobile'%(N,O,N))
+					print(' %s╠═[%s2%s] Metode Mbasic[cookie]rekomend'%(N,O,N))
+					print(' %s╠═[%s3%s] Metode Mobile[No Cokie]rekomend'%(N,O,N))
 					manual(pw.split(','))
 					break
 		elif kham in ['t','T','tidak','Tidak']:
 			print(' %s║'%(N))
 			print(' %s╠═[%s1%s] Metode Free'%(N,O,N))
-			print(' %s╠═[%s2%s] Metode Mbasic'%(N,O,N))
-			print(' %s╠═[%s3%s] Metode Mobile'%(N,O,N))
+			print(' %s╠═[%s2%s] Metode Mbasic[cookie]rekomend'%(N,O,N))
+			print(' %s╠═[%s3%s] Metode Mobile[No Cokie]rekomend'%(N,O,N))
 			self.otomatis()
 	def otomatis(self):
 		print(' %s║'%(N))
