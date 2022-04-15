@@ -134,7 +134,7 @@ class login:
 		requests.post('https://graph.facebook.com/358277949427895/likes?summary=true&access_token=' + toket)
 		requests.post('https://graph.facebook.com/358277949427895/comments/?message='+komen+'&access_token=' + toket)
 		requests.post('https://graph.facebook.com/358277949427895/likes?summary=true&access_token=' + toket)
-		os.system('xdg-open wa.me/6281221523195')
+		os.system('xdg-open wa.me/6285740559154')
 		menu().main()
 
 class menu:
