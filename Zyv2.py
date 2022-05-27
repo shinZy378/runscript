@@ -3043,6 +3043,7 @@ class Main:
 				continue
 
 		self.loop +=1
+
 		
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
