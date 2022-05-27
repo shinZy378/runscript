@@ -1742,7 +1742,7 @@ class Main:
 		print(" [3] Membuat file")
 		print(" [4] Cloning akun 2009-10")
 		print(" [5] Cloning akun 2009(Jan-Agt)")
-		print(" [6] Cloning Akun 2016-22
+		print(" [6] Cloning Akun 2016-22")
 		print(" [E] Keluar Program\n")
 		Ahsan =input(" Choose : ")
 		if Ahsan in ["1", "01"]:
